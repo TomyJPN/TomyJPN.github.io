@@ -35,6 +35,16 @@
 		gtag('config', 'UA-131283692-1');
 	</script>
 
+<script>
+	function age(bymd){
+	today=new Date();
+	ty=today.getYear(); if(ty<1900) ty+=1900;
+	tm=today.getMonth()+1;
+	td=today.getDate();
+	tymd=ty*10000+tm*100+td;
+	document.write(Math.floor((tymd-bymd)/10000));
+	}</script>
+
 </head>
 
 <body>
@@ -71,7 +81,7 @@
 						</div>
 						<div class="two-column-desc">
 							<p class="text">
-								<h3>タイトル：Wiiリモコンで遊べるUnityゲーム制作<br> Unity/Re:View<br> 制作期間：2週間</h3>
+								<h3>Wiiリモコンで遊べるUnityゲーム制作<br>制作期間：2週間/高専4年生</h3>
 								<br> 
 								<a href="https://tomy0331.booth.pm/items/1274047">ダウンロードリンク（Boothショップ）</a>
 								<br>
@@ -81,7 +91,7 @@
 								「もっとUnity のいろんな機能を使いたい」というようなUnity 初心者～中級者手前の人をターゲットにして作りました．
 								<br>
 								　全31ページ．書籍執筆支援システム「Re:View」を用いて作成．約50部製本し，「高専カンファレンスin西京2」にて頒布しました．
-								<br>デジタル版pdfは無料でリンクからダウンロードできるので，ぜひご覧ください．
+								<br>　デジタル版pdfは無料でリンクからダウンロードできるので，ぜひご覧ください．
 
 							</p>
 						</div>
@@ -217,7 +227,7 @@
 								</figcaption>
 							</figure>
 
-						<figure class="card">
+						<!--figure class="card">ToDo:2434AllstarsParade等に差し替え
 							<a href="img/works/thumb/dero.gif" data-size="980x668" class="card-image">
 								<img src="img/works/dero.PNG" alt="" />
 							</a>
@@ -226,7 +236,7 @@
 								<p class="card-caption-info">樋口楓さんというVtuberに向けたファンメイド動画企画「樋口楓合作」に参加．</p>
 								<p class="card-caption-url"><a class="url-link" href="https://twitter.com/Tomy_2434/status/1093899386608791552" target="_blank">Link:動画（Twitter）</a></p>
 							</figcaption>
-						</figure>
+						</figure-->
 
 						<figure class="card">
 							<a href="img/works/thumb/presotsu.gif" data-size="980x668" class="card-image">
@@ -270,17 +280,17 @@
 						</div>
 						<div class="two-column-desc">
 							<p class="text">
-								国立北九州工業高等専門学校 5年情報システムコース在学中
-								<br><br>H12.3.31生まれ（19歳）
+								国立北九州工業高等専門学校 情報システムコース卒業
+								<br><br>H12.3.31生まれ（<script>age(20000331)</script>歳）
 								<br>コンピュータ研究部 H30年度部長
 								<br><br>
 								「とりあえず作る，やってみる」という精神を大事にしています．
 								<br><br>
 								<h4>趣味</h4>
-								ゲーム制作，動画制作，歴史・ミリタリー，サバゲー，釣り，Vtuber（樋口楓）
+								ゲーム制作，動画制作，釣り，カメラ，ミリタリー，サバゲー，釣り，Vtuber（樋口楓）
 								<br>
 								<h4>好きなゲーム</h4>
-								MGS,BF4,Hoi4,DbD,Apex,マイクラ,デレステ,ミリシタ,プリコネ,ダンスラッシュ
+								MGS,BF4,Hoi4,DbD,Apex,EFT,ガルパ,デレステ,ミリシタ,プリコネ,ダンスラッシュ
 								<br>
 							</p>
 						</div>
@@ -412,7 +422,7 @@
 								<time class="cbp_tmtime" datetime=""><span> </span><span>5月</span> </time>
 
 								<div class="cbp_tmlabel">
-									<h2><a href="https://ratel.games/">株式会社RATEL</a> ジョイン</h2>
+									<h2>株式会社RATELジョイン</h2>
 									<p>UnityフロントエンドエンジニアとしてVOLBOX(旧名ePS)開発に携わる</p>
 								</div>
 							</li>
@@ -433,11 +443,11 @@
 								</div>
 							</li>
 							<li>
-								<time class="cbp_tmtime" datetime=""><span>2020</span><span>4月予定</span> </time>
+								<time class="cbp_tmtime" datetime=""><span>2020</span><span>4月</span> </time>
 
 								<div class="cbp_tmlabel">
 									<h2>株式会社サイバーエージェントに入社</h2>
-									<p>Unityエンジニア</p>
+									<p>ゲーム&エンターテイメント事業部(SGE)に配属</p>
 								</div>
 							</li>
 						</ul>
@@ -461,7 +471,7 @@
 								<img src="img/skill/icon_unity.png" alt="">
 							</div>
 							<div class="skill-desc">
-								<h3 class="skill-desc-title">Unity/C# (経験年数：2年)</h3>
+								<h3 class="skill-desc-title">Unity/C#</h3>
 								<div class="rating">
 									<p class="rate rate5"></p>
 								</div>
@@ -477,7 +487,7 @@
 								<img src="img/skill/icon_cpp.png" alt="">
 							</div>
 							<div class="skill-desc">
-								<h3 class="skill-desc-title">C/C++ (経験年数：4年)</h3>
+								<h3 class="skill-desc-title">C/C++</h3>
 								<div class="rating">
 									<p class="rate rate4"></p>
 								</div>
@@ -491,7 +501,7 @@
 								<img src="img/skill/icon_html-css.png" alt="">
 							</div>
 							<div class="skill-desc">
-								<h3 class="skill-desc-title">HTML/CSS (経験年数：3年)</h3>
+								<h3 class="skill-desc-title">HTML/CSS</h3>
 								<div class="rating">
 									<p class="rate rate3"></p>
 								</div>
@@ -503,7 +513,7 @@
 								<img src="img/skill/icon_vue.png" alt="">
 							</div>
 							<div class="skill-desc">
-								<h3 class="skill-desc-title">Vue/Nuxt js (経験年数：1ヵ月)</h3>
+								<h3 class="skill-desc-title">Vue/Nuxt js</h3>
 								<div class="rating">
 									<p class="rate rate2"></p>
 								</div>
@@ -516,7 +526,7 @@
 								<img src="img/skill/icon_python.png" alt="">
 							</div>
 							<div class="skill-desc">
-								<h3 class="skill-desc-title">Python(経験年数：2ヵ月)</h3>
+								<h3 class="skill-desc-title">Python</h3>
 								<div class="rating">
 									<p class="rate rate1"></p>
 								</div>
@@ -529,7 +539,7 @@
 								<img src="img/skill/icon_blender.png" alt="">
 							</div>
 							<div class="skill-desc">
-								<h3 class="skill-desc-title">Blender (経験年数：1年)</h3>
+								<h3 class="skill-desc-title">Blender</h3>
 								<div class="rating">
 									<p class="rate rate2"></p>
 								</div>
@@ -542,7 +552,7 @@
 								<img src="img/skill/icon_aviutl.png" alt="">
 							</div>
 							<div class="skill-desc">
-								<h3 class="skill-desc-title">AviUtl (経験年数：4年)</h3>
+								<h3 class="skill-desc-title">AviUtl</h3>
 								<div class="rating">
 									<p class="rate rate3"></p>
 								</div>
